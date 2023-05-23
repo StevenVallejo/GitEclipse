@@ -8,4 +8,9 @@ public class Alumno {
 		this.dni = dni;
 	}
 	
+	@Override
+	public String toString() {
+		return "Nombre: " + nombre + " Apellido: " + apellido + " dni: " + dni;
+	}
+	
 }
